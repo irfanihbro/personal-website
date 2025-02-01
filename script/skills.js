@@ -15,7 +15,7 @@ export function skillFunctionality(){
     },
 
     {
-      icon:'images/icons/bootstrap.png',
+      icon:'images/icons/Bootstrap.png',
       name: 'Bootstrap',
       type: 'tech-stack'
     },
@@ -39,7 +39,7 @@ export function skillFunctionality(){
     },
 
     {
-      icon:'images/icons/Python.png',
+      icon:'images/icons/python.png',
       name: 'Python',
       type: 'tech-stack'
     },
