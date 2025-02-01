@@ -15,6 +15,22 @@
   opacity: 0;
 }
 
+.project-link {
+  display: block;
+  text-decoration: none;
+}
+  
+  .project-card {
+    border: 2px solid #00ADB5;
+    padding: 15px;
+    margin: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
 .project-card .project-icon{
   width: clamp(5rem, 15vw, 10rem);
 }
@@ -29,6 +45,11 @@
   color: var(--primary-color);
   font-size: var(--XS-Fsize);
   opacity: 0.7;
+}
+
+.project-title, .project-description {
+  color: white;
+  text-decoration: none;
 }
 
 .project-card .arrow-icon{
