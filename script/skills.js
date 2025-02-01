@@ -82,7 +82,7 @@ export function skillFunctionality(){
     
     {
       icon:'images/icons/JavaScript.png',
-      name: 'JAVASCRIPT',
+      name: 'JavaScript',
       type: 'tech-stack'
     },
 
@@ -94,7 +94,7 @@ export function skillFunctionality(){
 
     {
       icon:'images/icons/React.png',
-      name: 'REACT',
+      name: 'React',
       type: 'tech-stack'
     },
 
