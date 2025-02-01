@@ -40,7 +40,7 @@
 }
 
 .profile-container .social-media-nav ul li a img{
-  max-width: 3rem;
+  max-width: 2rem;
 }
 
 @media(width >= 1000px){
