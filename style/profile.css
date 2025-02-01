@@ -41,7 +41,7 @@
 
 .profile-container .social-media-nav ul li a img{
   max-width: 1.5rem;
-  transform: translateY(-10px);
+  transform: translateY(-5px);
 }
 
 @media(width >= 1000px){
