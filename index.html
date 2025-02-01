@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta property="og:image" content="https://irfanihbro.github.io/personal-website/images/sigmalio.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <meta  property="og:title" content="Irfan Anshari's Portfolio">
+    <meta  property="og:description" content="Portfolio Website of Irfan Anshari">
+    <link rel="stylesheet" href="style/animation.css">  
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/top_nav.css">
+    <link rel="stylesheet" href="style/profile.css">
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/skills.css">
+    <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="style/projects.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <title>Personal Website</title>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <!-- TOP-NAVIGATION -->
+      <nav class="top-nav">
+        <ul>
+          <li class="nav home">
+            <a href=""><p>Home</p> <img class="nav-icon" src="images/icons/home-icon.png" alt=""></a>
+          </li>
+          <li class="nav about">
+            <a href="#about-section"><p>About</p> <img class="nav-icon" src="images/icons/about-icon.png" alt=""></a>
+          </li>
+          <li class="nav skills">
+            <a href="#skills-section"><p>Skills</p> <img class="nav-icon" src="images/icons/skill-icon.png" alt=""></a>
+          </li>
+          <li class="nav project">
+            <a href="#projects-section"><p>Projects</p> <img class="nav-icon active" src="images/icons/projects-icon.png" alt=""></a>
+          </li>
+        </ul>
+        <a href="#contact-section" id="let-connect-btn">Let's Connect</a>
+      </nav>
+      <main>
+        <!-- PROFILE CARD -->
+        <div class="profile-container fixed ">
+          <img src="images/profile.png" alt="" class="profile-pic">
+          <h3 class="name">Irfan</h3>
+          <p class="short-about-me">Photographer, Programmer, Network Engineer, Pentester</p>
+
+          <nav class="social-media-nav">
+            <ul>
+              <li>
+                <a href="https://instagram.com/irfanihbro/profilecard"><img src="images/icons/instagram.png"></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/irfanmastermind"><img src="images/icons/linkedin.png"></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="section-container">
+          <!-- ABOUT SECTION -->
+          <section id="about-section" class="section about">
+            <h1 class="heading">FULL-STACK<br><span>DEVELOPER</span></br></h1>
+            <p class="more-about-me">
+              I'm a Full-Stack Developer with a strong background in web development, network engineering, and cybersecurity. I continuously learning new technologies to enhance my skills.
+            </p>
+            <div class="years-of-doing d-grid">
+              <div class="experience">
+                <h3 class="years">+3</h3>
+                <p>YEARS OF <br>EXPERIENCE</br></p>
+              </div>
+              <div class="projects">
+                <h3 class="years">+50</h3>
+                <p> PROJECTS <br> COMPLETED</br></p>
+              </div>
+          </section>
+          
+          <!-- SKILL SECTION -->
+          <section id="skills-section" class="section skills">
+            <h1 class="heading"> SPECIALIZED <br><span>SKILLS</span></br></h1>
+            <button class="tech-stacks-btn selected">TECH STACK</button>
+            <button class="tools-btn">TOOLS</button>
+  
+            <div class="skills-container tech-stack-skills d-grid">
+              <!-- add and delete skills on skills.js -->
+            </div>
+            <div class="skills-container tools-skills d-grid">
+            </div>
+          </section>
+  
+          <!-- PROJECT SECTION -->
+          <section id="projects-section" class="section project">
+            <h1 class="heading">MY<br><span>PROJECTS</span></br></h1>
+
+            <div class="projects-container">
+              <div class="project-card">
+                <img src="images/icons/image.png" alt="project-icon" class="project-icon">
+                <div class="title-description-container">
+                  <h4 class="project-title">Project Title</h4>
+                  <p class="project-description">Project description</p>
+                </div> 
+                <img class="arrow-icon" src="images/icons/up-right-arrow.png" alt="arrow-icon" >
+              </div>
+              <div class="project-card">
+                <img src="images/icons/image.png" alt="project-icon" class="project-icon">
+                <div class="title-description-container">
+                  <h4 class="project-title">Project Title</h4>
+                  <p class="project-description">Project description</p>
+                </div> 
+                <img class="arrow-icon" src="images/icons/up-right-arrow.png" alt="arrow-icon" >
+              </div>
+              <div class="project-card">
+                <img src="images/icons/image.png" alt="project-icon" class="project-icon">
+                <div class="title-description-container">
+                  <h4 class="project-title">Project Title</h4>
+                  <p class="project-description">Project description</p>
+                </div> 
+                <img class="arrow-icon" src="images/icons/up-right-arrow.png" alt="arrow-icon" >
+              </div>
+            </div>
+          </section>
+  
+          <!-- COTACT SECTION -->
+          <section id="contact-section">
+            <h1 class="heading">LET'S WORK<br><span> TOGETHER</span></br></h1>
+            <form action="">
+              <div class="input-container">
+                <input type="text" class="input" placeholder="Your Name" required>
+                <input type="email" class="input" placeholder="Your@email.com" required>
+              </div>    
+              <textarea name="" id="message" class="input" placeholder="Message to me" required ></textarea>
+              <button class="submit-btn">Submit</button>
+            </form>
+          </section>
+        </div>
+      </main>
+      <footer>
+        <p class="copyright-text"></p>
+
+        <p>Visit me on</p>
+        <nav class="socmed-nav">
+          <nav>
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/irfanihbro"><img src="images/icons/facebook2.png" class="socmed-icon"></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/irfanihbro/profilecard"><img src="images/icons/instagram2.png" class="socmed-icon"></a>
+              </li>
+            </ul>
+          </nav>
+        </nav>
+      </footer>
+    </div>
+
+    <script type="module" src="script/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+.profile-container{
+  padding: 2.3rem 10%;
+  border-radius: 16px;
+  background-color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 7rem;
+  animation: profile-entry 1.5s forwards ease;
+}
+
+.profile-container .profile-pic{
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
+  max-width: 26rem;
+}
+
+.profile-container .name{
+
+  color: var(--neutral-color);
+  font-size: 2.50rem;
+  line-height: 1em;
+  margin-bottom: 1rem;
+  animation: name-entry 1.8s ease;
+}
+
+.profile-container .short-about-me{
+  color: var(--pastel-color);
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0.7;
+  margin-bottom: 2rem;
+  line-height: 1.2em;
+  animation: profile-about-entry 1.6s ease;
+}
+
+.profile-container .social-media-nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.profile-container .social-media-nav ul li a img{
+  max-width: 1.5rem;
+}
+
+@media(width >= 1000px){
+  .profile-container.fixed{
+   position: sticky;
+   top: 5.3rem;
+   max-height: 35rem;
+   width: 50rem;
+   padding: 2.3rem 1.6rem;
+   }
+ }
+

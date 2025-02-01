@@ -1,0 +1,73 @@
+nav.top-nav{
+  display: flex;
+  gap: 0.8rem;
+  position: fixed;
+  top: 15px;
+  z-index: 10;
+}
+.top-nav ul{
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--pastel-color);
+  list-style: none;
+  padding: 0.3rem 1rem;
+  padding-top: 0.5rem;
+  width: 10.2rem;
+  border-radius: 8px;
+}
+
+.top-nav ul li {
+  position: relative;
+  transition: all 2s ease;
+}
+
+.top-nav ul li a{
+  color: var(--primary-color);
+  transition: all 2s ease;
+}
+
+.top-nav ul a p{
+  background-color: rgba(255, 255, 255, 0.18);
+  position: absolute;
+  border-radius: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--primary-color);
+  font-size: 0.78rem;
+  padding: 0.2rem 0.5rem;
+  opacity: 0;
+  z-index: 10;
+  display: none;
+}
+
+.top-nav ul li a:hover > p{
+  display: inline;
+  animation: topnav-label 0.2s forwards ease-out;
+}
+
+.top-nav ul a .nav-icon{
+  max-width: 1.3rem;
+}
+
+.top-nav ul a .nav-icon.active{
+  filter: invert(53%) sepia(60%) saturate(371%) hue-rotate(145deg);
+}
+
+.top-nav a#let-connect-btn{
+  background-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  width: 7.7rem;
+  padding-top: 0.5rem;
+  border-radius: 16px;
+  text-decoration: none;
+  color: var(--neutral-color);
+  text-align: center;
+  font-size: calc(var(--XS-Fsize) - 0.05rem);
+  cursor: pointer;
+}
+
+.top-nav a#let-connect-btn:hover{
+  opacity: 0.8;
+}
+
+

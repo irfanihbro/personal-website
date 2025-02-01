@@ -1,0 +1,65 @@
+#skills-section .heading{
+  margin-bottom: 2rem;
+}
+#skills-section button{
+  color: var(--primary-color);
+  opacity: 0.8;
+  padding: 0.3rem 0.5rem;
+  font-size: calc(var(--XS-Fsize) - 0.3rem) ;
+  border-radius: 5px;
+  border: none;
+  background-color: transparent;
+  margin-bottom: 1.1rem;
+  cursor: pointer;
+}
+#skills-section button.selected{
+  opacity: 1;
+  color: var(--accent-color);
+  background-color: #00acb534;
+  font-size:calc(var(--XS-Fsize) - 0.2rem);
+}
+
+#skills-section .skills-container.d-grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px
+}
+
+#skills-section .skills-container.tools-skills{
+  display: none;
+}
+
+#skills-section .skills-container .skill{
+  font-size: var(--XS-small-Fsize);
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid var(--accent-color);
+  border-radius: 5px;
+  padding: 0.7rem;
+  transition: 0.2s;
+  cursor: pointer;
+  opacity: 0;
+}
+
+
+#skills-section .skills-container .skill .icon{
+  max-width: 1.5rem;
+}
+
+#skills-section .skills-container .skill p{
+  font-size: var(--XS-Fsize);
+  color: var(--primary-color);
+  text-align: center;
+}
+
+#skills-section .skills-container .skill:hover{
+  background-color:#00acb577;
+}
+
+@media(width >= 550px){
+  #skills-section .skills-container.d-grid{
+    grid-template-columns: repeat(3, 33%);
+  }
+}

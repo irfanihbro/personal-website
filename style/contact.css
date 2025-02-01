@@ -1,0 +1,57 @@
+#contact-section{
+  position: relative;
+  text-align: end;
+  margin-bottom: 5rem;
+}
+
+#contact-section .heading{
+  margin-bottom: 2rem;
+}
+
+#contact-section .input{
+  opacity: 0;
+}
+#contact-section form input::placeholder, 
+#contact-section form textarea::placeholder{
+  color: rgba(255, 255, 255, 0.364);
+  font-size: var(--XS-Fsize);
+}
+
+#contact-section form input, 
+#contact-section form textarea{
+  color: var(--primary-color);
+  background-color: var(--pastel-color);
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  border-radius: 10px;
+  border: 1px solid #eeeeee41;
+}
+
+#contact-section form input{
+  margin-bottom: 0.5rem;
+}
+
+#contact-section form textarea{
+  margin-top: 0.5rem;
+  margin-bottom: 0.2rem;
+  height: 10rem;
+}
+
+#contact-section form .submit-btn{
+  font-size: var(--XS-Fsize);
+  text-align: end;
+  background-color: transparent;
+  padding: 0.4rem 1.4rem;
+  border: 1px solid var(--accent-color);
+  background-color: var(--accent-color);
+  border-radius: 5px;
+  color: var(--neutral-color);
+  cursor: pointer;
+}
+
+@media(width > 550px){
+  #contact-section form .input-container{
+    display: flex;
+    gap: 0.8rem;
+  }
+}
