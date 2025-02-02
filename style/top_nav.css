@@ -1,11 +1,11 @@
-nav.top-nav{
+nav.top-nav {
   display: flex;
   gap: 0.8rem;
   position: fixed;
   top: 15px;
   z-index: 10;
 }
-.top-nav ul{
+.top-nav ul {
   display: flex;
   justify-content: space-between;
   background-color: var(--pastel-color);
@@ -21,12 +21,12 @@ nav.top-nav{
   transition: all 2s ease;
 }
 
-.top-nav ul li a{
+.top-nav ul li a {
   color: var(--primary-color);
   transition: all 2s ease;
 }
 
-.top-nav ul a p{
+.top-nav ul a p {
   background-color: rgba(255, 255, 255, 0.18);
   position: absolute;
   border-radius: 8px;
@@ -40,20 +40,20 @@ nav.top-nav{
   display: none;
 }
 
-.top-nav ul li a:hover > p{
+.top-nav ul li a:hover > p {
   display: inline;
   animation: topnav-label 0.2s forwards ease-out;
 }
 
-.top-nav ul a .nav-icon{
+.top-nav ul a .nav-icon {
   max-width: 1.3rem;
 }
 
-.top-nav ul a .nav-icon.active{
+.top-nav ul a .nav-icon.active {
   filter: invert(53%) sepia(60%) saturate(371%) hue-rotate(145deg);
 }
 
-.top-nav a#let-connect-btn{
+.top-nav a#let-connect-btn {
   background-color: var(--accent-color);
   border: 1px solid var(--accent-color);
   width: 7.7rem;
@@ -66,8 +66,6 @@ nav.top-nav{
   cursor: pointer;
 }
 
-.top-nav a#let-connect-btn:hover{
+.top-nav a#let-connect-btn:hover {
   opacity: 0.8;
 }
-
-
